@@ -1,4 +1,7 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+# Load CachyOS config if it exists (CachyOS only)
+if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
+    source /usr/share/cachyos-fish-config/cachyos-config.fish
+end
 
 # Load aliases
 source ~/.config/fish/aliases.fish
