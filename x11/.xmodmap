@@ -1,0 +1,9 @@
+! Clear any existing Capslock mapping
+clear Lock
+
+! Map Capslock to Hyper_L
+keycode 66 = Hyper_L
+
+! Add Hyper_L to the mod3 modifier
+clear mod3
+add mod3 = Hyper_L
