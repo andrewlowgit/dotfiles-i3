@@ -82,6 +82,7 @@ gst-plugins-ugly
 gutenprint
 haveged
 hdparm
+htop
 hwdetect
 hwinfo
 i3-wm

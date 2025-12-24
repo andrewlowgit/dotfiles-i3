@@ -56,6 +56,7 @@ dex
 # Additional packages (auto-added by pkgadd)
 # Sort these into categories periodically
 ADDITIONAL_PACKAGES=(
+    htop
 vlc
 pcmanfm
 )
