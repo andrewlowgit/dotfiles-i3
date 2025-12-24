@@ -84,6 +84,17 @@ timestamp=$(date +%Y%m%d_%H%M%S)
 [ -f ~/.xinitrc ] && mv ~/.xinitrc ~/.xinitrc.backup.$timestamp
 [ -f ~/.xmodmap ] && mv ~/.xmodmap ~/.xmodmap.backup.$timestamp
 
+# 3b. Ensure clean slate (remove any remaining configs)
+echo "Ensuring clean slate for stow..."
+rm -rf ~/.config/i3
+rm -rf ~/.config/polybar
+rm -rf ~/.config/fish
+rm -rf ~/.config/picom
+rm -rf ~/.config/dunst
+rm -rf ~/.config/rofi
+rm -f ~/.xinitrc
+rm -f ~/.xmodmap
+
 # 4. Deploy configurations
 echo ""
 echo "[4/6] Deploying configurations with stow..."
