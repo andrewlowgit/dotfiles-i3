@@ -41,6 +41,7 @@ if [ -d ~/dotfiles ]; then
             ;;
         2)
             echo "Removing ~/dotfiles and cloning fresh..."
+            cd ~
             rm -rf ~/dotfiles
             git clone https://github.com/andrewlowgit/dotfiles-i3.git ~/dotfiles
             cd ~/dotfiles
