@@ -13,7 +13,7 @@ stow
 # i3 ecosystem
 WM_PACKAGES=(
 i3-wm
-i3lock
+i3lock-color
 polybar
 rofi
 dunst
